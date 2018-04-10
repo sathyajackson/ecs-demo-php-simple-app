@@ -53,15 +53,15 @@ Metadata:
   AWS::CloudFormation::Interface:
     ParameterLabels:
       GitHubUser:
-        default: "User"
+        default: "sathyajackson"
       GitHubRepo:
         default: "Repo"
       GitHubBranch:
-        default: "Branch"
+        default: "Master"
       GitHubToken:
-        default: "Personal Access Token"
+        default: "cd240bb4ce57665b5e66375c89e66a2550ad3b14"
       LaunchType:
-        default: "Launch Type"
+        default: "EC2"
     ParameterGroups:
       - Label:
           default: Cluster Configuration
